@@ -38,7 +38,8 @@
 			},
 			"uci": [
 				"mwan3",
-				"network"
+				"network",
+				"firewall"
 			]
 		},
 		"write": {
@@ -58,11 +59,15 @@
 			"ubus": {
 				"mwan3": [
 					"status"
+				],
+				"system": [
+					"validate_uci_config"
 				]
 			},
 			"uci": [
 				"mwan3",
-				"network"
+				"network",
+				"firewall"
 			]
 		},
 		"write": {
